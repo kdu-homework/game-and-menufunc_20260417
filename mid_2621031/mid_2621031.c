@@ -324,7 +324,6 @@ int main() {
 		scanf("%d", &menu);
 		clrscr();
 
-		while (getchar())
 		switch (menu) {
 		case 1:draw_input(); set_data();break;
 
