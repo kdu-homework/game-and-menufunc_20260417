@@ -308,7 +308,7 @@ int main() {
 			draw_exit(); 
 			break;
 		}
-		getchar();
+		getchar(); // 버퍼ㅓㅓㅓㅓㅓㅓㅓㅓㅓㅓㅓㅓㅓㅓㅓㅓㅓㅓㅓㅓㅓㅓㅓㅓㅓㅓㅓㅓㅓㅓㅓㅓㅓㅓㅓㅓㅓㅓㅓㅓㅓㅓㅓㅓ
 		clrscr();
 
 		if (menu == 4) break;
