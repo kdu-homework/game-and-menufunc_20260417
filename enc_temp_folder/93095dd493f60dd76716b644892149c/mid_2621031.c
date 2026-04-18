@@ -286,7 +286,7 @@ int main() {
 
 		gotoxy(35, 10);
 		scanf("%d", &menu);
-		getchar();
+		//getchar(); // 제거
 		clrscr();
 
 		switch (menu) {
@@ -308,6 +308,7 @@ int main() {
 			draw_exit(); 
 			break;
 		}
+		getchar();
 		getchar();
 		clrscr();
 
